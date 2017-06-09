@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "mkchung"
+  },
+  "dependencies": {},
+  "description": "alipay module for react native no utdid",
+  "devDependencies": {},
+  "directories": {},
+  "keywords": [
+    "react-native",
+    "alipay"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-alipay-no-utdid",
+  "optionalDependencies": {},
+  "publish_time": 1473662393715,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
