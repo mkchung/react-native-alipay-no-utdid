@@ -5,7 +5,7 @@ React Native Module for alipay.com
 ## install
 
 ```
-npm install react-native-yunpeng-alipay --save
+npm install git+https://github.com/mkchung/react-native-alipay-no-utdid.git --save
 ```
 
 ## Android
@@ -13,7 +13,7 @@ npm install react-native-yunpeng-alipay --save
 ### With rnpm
 
 ```
-rnpm link react-native-yunpeng-alipay
+rnpm link react-native-alipay-no-utdid
 ```
 
 ### Manually
@@ -21,15 +21,15 @@ rnpm link react-native-yunpeng-alipay
 * android/settings.gradle
 
 ```
-include ':react-native-yunpeng-alipay'
-project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
+include ':react-native-alipay-no-utdid'
+project(':react-native-alipay-no-utdid').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-alipay-no-utdid/android')
 ```
 
 * android/app/build.gradle
 
 ```
 dependencies {
-    compile project(':react-native-yunpeng-alipay')
+    compile project(':react-native-alipay-no-utdid')
 }
 ```
 
@@ -59,12 +59,12 @@ public class MainActivity extends ReactActivity {
 ### With rnpm
 
 ```
-rnpm link react-native-yunpeng-alipay
+rnpm link react-native-alipay-no-utdid
 ```
 
 ### Manually
 
-> Link `AlipayModule` library from your `node_modules/react-native-yunpeng-alipay/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
+> Link `AlipayModule` library from your `node_modules/react-native-alipay-no-utdid/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
 
 ### Config
 
@@ -93,7 +93,7 @@ rnpm link react-native-yunpeng-alipay
 ### General Usage
 
 ```javascript
-import Alipay from 'react-native-yunpeng-alipay';
+import Alipay from 'react-native-alipay-no-utdid';
 
 ```
 
