@@ -1,4 +1,4 @@
-# react-native-yunpeng-alipay
+# react-native-alipay-no-utdid
 
 React Native Module for alipay.com
 
